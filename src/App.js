@@ -1,6 +1,7 @@
 import React from 'react';
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
+import Header from './components/header/header.component';
 import './App.css';
 import {
   Routes,
@@ -10,6 +11,7 @@ import {
 function App() {
   return (
     <div>
+    <Header/>
       <Routes>
         <Route exact path='/' element={<HomePage/>} />
         <Route exact path='/shop' element={<ShopPage/>} />
