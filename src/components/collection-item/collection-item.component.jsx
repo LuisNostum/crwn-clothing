@@ -5,7 +5,7 @@ import React from 'react'
 import CustomButton from '../custom-button/custom-button.component'
 
 function CollectionItem({ item, addItem }) {
-    const {id, name, price, imageUrl, quantity} = item
+    const { name, price, imageUrl, } = item
     return (
         <div className="collection-item">
             <div className="image"
