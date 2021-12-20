@@ -3,14 +3,15 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-  authDomain: 'crwn-db.firebaseapp.com',
-  databaseURL: 'https://crwn-db.firebaseio.com',
-  projectId: 'crwn-db',
-  storageBucket: 'crwn-db.appspot.com',
-  messagingSenderId: '850995411664',
-  appId: '1:850995411664:web:7ddc01d597846f65'
+  apiKey: "AIzaSyB8W_EA1x1_x4exqzLdgHOAHyPdFMPzgn8",
+  authDomain: "crwn-db-7815c.firebaseapp.com",
+  projectId: "crwn-db-7815c",
+  storageBucket: "crwn-db-7815c.appspot.com",
+  messagingSenderId: "798108023683",
+  appId: "1:798108023683:web:e0779a86237339b8cf54b6",
+  measurementId: "G-NJZHLM0RDG"
 };
+
 
 firebase.initializeApp(config);
 
